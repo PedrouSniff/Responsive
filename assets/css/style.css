@@ -1,0 +1,44 @@
+h1 {
+    color: blue;
+}
+
+p {
+    background-color: green;
+}
+
+div {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: red;
+}
+
+@media screen and (max-width:800px){
+    h1 {
+        color: black;
+    }
+
+    p {
+        background-color: rgb(126, 2, 126);
+    }
+}
+
+@media screen and (max-width:500px){
+    body {
+        background-color: pink;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        text-transform: uppercase;
+    }
+    
+    div {
+        width:10rem;
+        height: 10rem;
+        border-radius: 0%;
+    }
+}
